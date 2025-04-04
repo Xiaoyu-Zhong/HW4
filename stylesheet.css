@@ -1,0 +1,51 @@
+/* Style for the body tag */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style using an id for the main title */
+#main-title {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* A class named "highlight" applied to multiple elements */
+.highlight {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Div sections styling (using two box model properties: border and padding) */
+.section {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Link styling with hover effect */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+/* Image styling changing the box model's margin property */
+img {
+    display: block;
+    margin: 10px 0;
+}
